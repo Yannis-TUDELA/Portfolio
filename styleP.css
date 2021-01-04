@@ -1,0 +1,52 @@
+main{ /* Milieu de la page */  
+    border-radius: 10px;  
+    background-color: #3d3a3a00;      
+}
+
+.titreP{
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: underline #7dd11c;
+    text-shadow: 3px 3px #797e81;
+}
+
+.projets{
+    display: flex;
+    justify-content: center;
+}
+
+.projet{
+    width: 40vw;   
+}
+
+.projet img{
+    height: auto;
+    width: 100%;
+    transition-duration: 0.3s;
+}
+
+.projet img:hover{
+    border: 2px solid #7dd11c;
+    transform: scale(1.015);
+}
+
+@media screen and (max-width: 1200px) {
+    .projet{
+        width: 80vw;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .projet{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projet{
+        width: 90vw;
+
+    }
+}
+

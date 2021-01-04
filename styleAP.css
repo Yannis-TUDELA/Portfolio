@@ -1,0 +1,102 @@
+main{ /* Milieu de la page */ 
+    background-color: #3d3a3a00;   
+    border-radius: 10px;    
+}
+
+.titreAP{
+    font-size: 250%;
+    color: #ffffff;
+    text-decoration: underline #7dd11c;
+    text-shadow: 3px 3px #797e81;
+}
+
+.texte{ /* message qui se situe au milieu de l'écran*/
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px; 
+    width: 90%;
+}
+
+/* Partie gauche Mon parcours*/
+.Titre-Parcours{
+    color: white;
+    font-size: 170%;
+    color: #ffffff;
+    text-decoration: underline #7dd11c;
+    text-shadow: 2px 2px #797e81;
+    padding-right: 2vh;
+}
+
+.GD {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.GD .gauche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.GD .gauche .ligne{
+    height: 40px;
+    width: 3px;
+    background-color: #7dd11c;
+}
+
+.GD .gauche .parcours{
+    background-color: rgba(146, 146, 146, 0.116);
+    color: rgb(255, 255, 255);
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.GD .parcours p{
+    padding: 0 1rem;
+}
+
+.GD .droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Partie droite expérience professionnelle*/
+.Exp-Pro{
+    color: white;
+    font-size: 170%;
+    color: #ffffff;
+    text-decoration: underline #7dd11c;
+    text-shadow: 2px 2px #797e81;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .GD{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .GD{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .GD{       
+        flex-direction: column;
+        width: 90vw;       
+    }
+
+    .GD .gauche .parcours{
+        width: 100%;
+    }
+
+    .GD .gauche .parcours p{
+        text-align: center;
+    }
+}
