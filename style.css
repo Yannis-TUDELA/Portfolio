@@ -29,6 +29,11 @@ main{ /* Milieu de la page */
     opacity: 0.15;
 }
 
+.prenom{
+    color : rgb(65, 255, 65);
+    font: bold 10px;
+}
+
 @media screen and (max-width: 768px) {
     .imageBas{
         opacity: 0;

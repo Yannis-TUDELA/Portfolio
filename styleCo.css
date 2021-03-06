@@ -37,22 +37,3 @@ main{ /* Milieu de la page */
 .a-survol:hover{
     color: #7dd11c;
 }
-
-/* bouton télecharger le CV*/
-button{ 
-    border-radius: 10px;
-    color: white;
-    background-image: url(image/MurNoir.jpg);
-    margin-left: 15px;
-    width: 150px;
-    height: 50px;
-    border: 2px solid rgb(255, 255, 255);
-    cursor: pointer;  
-    transition-duration: 1s;
-}
-
-/* changement de couleur au survol*/
-button:hover{
-    border: 2px solid #7dd11c;
-    transform: scale(1.1);
-}
