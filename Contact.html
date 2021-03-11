@@ -50,7 +50,16 @@
                 
                 <p>GitHub : <a class="a-survol" target="_blank" href="https://github.com/Yannis-TUDELA">
                     Yannis-TUDELA </a> 
-                </p>             
+                </p>        
+                
+                <p class="me-contacter">M'envoyer un mail</p>
+                <form class="contact-form" action="./ContactForm.php" method="post">
+                    <input class="contact" type="text" name="name" placeholder="Votre nom">
+                    <input class="contact" type="text" name="mail" placeholder="Votre E-mail">
+                    <input class="contact" type="text" name="objet" placeholder="Objet du mail">
+                    <textarea class="contact" id="text-area" name="message" placeholder="Votre message"></textarea>
+                    <button class="contact" id="bouton" type="submit" name="submit">Envoyer</button>
+                </form>
         </main> 
 
         <footer>
