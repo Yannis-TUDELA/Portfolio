@@ -28,15 +28,15 @@ if(isset($_POST["submit"])) {
                         $erreur = "Veuillez saisir un message";
                     }
                 } else {
-                    $erreur = "Veuillez saisir l'objet du mail";
+                    $erreur = "Veuillez saisir un objet";
                 }
         } else {
-            $erreur = "Veuillez saisir votre E-Mail";
+            $erreur = "Veuillez saisir votre E-mail";
         }
     } else {
         $erreur = "Veuillez saisir votre nom";
     }
-    }
+}
 ?>
 
 <!DOCTYPE html>

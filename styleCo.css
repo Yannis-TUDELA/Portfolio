@@ -97,6 +97,10 @@ textarea[name=message] {
     background: #00000057;
 }
 
+.msg-erreur {
+    color: #ff0000;
+}
+
 @media screen and (max-width: 1200px) {
     .contact{
         width: 80vw;
