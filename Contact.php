@@ -28,7 +28,7 @@ if(isset($_POST["submit"])) {
                         $erreur = "Veuillez saisir un message";
                     }
                 } else {
-                    $erreur = "Veuillez saisir un objet";
+                    $erreur = "Veuillez saisir l'objet de votre mail";
                 }
         } else {
             $erreur = "Veuillez saisir votre E-mail";
