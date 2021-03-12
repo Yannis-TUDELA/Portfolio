@@ -122,6 +122,6 @@ if(isset($_POST["submit"])) {
             </a>
             </p>    
         </footer>
-        <script src="./index.js"></script>
+        <script src="./JS/index.js"></script>
     </body>
 </html>
