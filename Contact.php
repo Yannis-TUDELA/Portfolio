@@ -16,7 +16,7 @@ if(isset($_POST["submit"])) {
                 if(!(empty($objet))) {
                     
                     if(!(empty($message))) {
-                            $mailTo = "tudela.yannis.sti@gmail.com";
+                            $mailTo = "tudela.yannis@gmail.com";
 
                             $texte = "Vous avez recu un mail de ".$nom.".\n\n".$message;
                         
