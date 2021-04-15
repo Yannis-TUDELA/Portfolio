@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+
+body{ /* Corps de la page*/
+    background-image: url(../image/MurNoir.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Comfortaa';   
+    width: 100vw;
+    margin: 0; 
+    overflow-x: hidden;
+}
+
+header{ /* En-tête de la page*/
+    font-family: 'Comfortaa', cursive; 
+    margin: auto;     
+    text-align: left;
+    background-color: #3f3e3e4f;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px; 
+    height: clamp(75px,6vh,6vh);
+    padding: 0 16px;
+}
+
+header .burger{
+    height: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 16px;
+    display: none;
+}
+
+header .burger > div{
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+nav{  /* Bouton de navigation */ 
+    font-family: 'Comfortaa', cursive;
+    text-align: right;
+    padding-top: 0em;
+}
+
+nav > a{
+    padding-right: 1em;
+    padding-left: 1em; 
+}
+
+
+#Nom{ /* Nom qui se situe en haut à gauche de la page*/
+    color: #ffffff;
+    text-decoration:none; /* permet d'enlever le soulignagne des liens*/  
+    -webkit-transition: color 0s;
+    transition: color 1s;
+}
+
+/* changement de couleur au survol*/
+#Nom:hover{
+    color: #7dd11c;
+}
+
+.lien{ /* lien qui se situe dans la catégorie navigation*/
+    text-decoration:none;   
+    font-size: 130%;
+}
+
+#Apropos{ /* Bouton à propos*/ 
+    color: #06a56b;    
+}
+
+#Projet{ /* Bouton projet*/
+
+    color: #04bd3d;        
+}
+
+#Competence{ /* bouton compétence */
+      
+    color: #91ce07;   
+}
+
+#Contact{ /* Bouton contact */
+       
+    color: #d9d005;
+}
+
+main{
+    min-height: calc(100vh - clamp(75px,6vh,6vh) - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{ /* pied de page */
+    text-decoration:none;
+    font-family: 'Comfortaa', cursive; 
+    text-align: center;
+    width:100%;
+    background-color:#3f3e3e4f;
+    color: #ffffff; 
+    border-radius: 10px 10px 0px 0px; 
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    margin-bottom: 5px;
+}
+
+footer p{
+    margin: 0;
+}
+
+.logo{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+@keyframes slidein{
+    from{
+        transform: translateX(100vw);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+/* Responsive*/
+@media screen and (max-width:768px) {
+
+    nav{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #2e2e2e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;       
+        transform: translateX(100%);
+        transition: 0.4s;
+        z-index: 10;
+    }
+
+    nav.active{
+        transform: translateX(0%);
+    }
+
+    /* animation burger*/
+    nav.active a{
+        animation: slidein 0.3s forwards;
+        transform: translateX(100vw);
+    }
+
+    nav.active a:nth-child(1){
+        animation-delay: 0.2s;
+    }
+
+    nav.active a:nth-child(2){
+        animation-delay: 0.3s;
+    }
+
+    nav.active a:nth-child(3){
+        animation-delay: 0.4s;
+    }
+
+    nav.active a:nth-child(4){
+        animation-delay: 0.5s;
+    }
+
+    
+
+    nav a{
+        margin-top: 16px;
+    }
+
+    .nav{
+        opacity: 0;
+    }
+    
+    header .burger{
+        display: flex;
+    }
+}

@@ -1,0 +1,57 @@
+main{ /* Milieu de la page */ 
+    border-radius: 10px;  
+    background-color: #3d3a3a00;    
+}
+
+.titre{
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: underline #7dd11c;
+    text-shadow: 3px 3px #797e81;
+}
+
+.img-comp{
+    padding-left: 1em;
+    width: 50px;
+    height: 50px;    
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.bar{
+    height: 18px;
+    width: 300px;
+    border: 3px solid #284e20;
+}
+
+
+progress::-webkit-progress-value {
+    background: linear-gradient( to right, #d9d005, #06a56b);
+    border-radius: 10px;
+}
+progress::-webkit-progress-bar {
+    background-color: #613f3f00;
+    width: 100%;
+}
+
+progress {
+    background-color: white; 
+    border-radius: 25px;
+}
+
+progress::-moz-progress-bar {
+    background-color: #aaa;
+}
+
+
+.competence{
+    margin-bottom: 10px;
+}
+
+.competence p{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+

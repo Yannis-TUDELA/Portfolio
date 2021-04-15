@@ -49,8 +49,8 @@ if(isset($_POST["submit"])) {
         </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-        <link rel="stylesheet" href="./styleCo.css">
-        <link rel="stylesheet" href="./huat-bas.css">
+        <link rel="stylesheet" href="../style/styleCo.css">
+        <link rel="stylesheet" href="../style/haut-bas.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="image/Logo.png"/>
@@ -115,13 +115,13 @@ if(isset($_POST["submit"])) {
             <p>Yannis TUDELA © | 2020 </p>       
             <p> 
             <a class="logo" target="_blank" href="https://www.linkedin.com/in/yannis-tudela-41b8351b7/">
-                <img src="./image/iconmonstr-linkedin-3.svg" alt="linkedin"> 
+                <img src="../image/iconmonstr-linkedin-3.svg" alt="linkedin"> 
             </a>
             <a class="logo" target="_blank" href="https://github.com/Yannis-TUDELA">
-                <img src="./image/iconmonstr-github-3.svg" alt="github">  
+                <img src="../image/iconmonstr-github-3.svg" alt="github">  
             </a>
             </p>    
         </footer>
-        <script src="./JS/index.js"></script>
+        <script src="../JS/index.js"></script>
     </body>
 </html>

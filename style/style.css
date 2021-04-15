@@ -1,0 +1,43 @@
+main{ /* Milieu de la page */ 
+    background-color: #3d3a3a00;   
+    border-radius: 10px;    
+}
+
+.titreI{
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: underline #7dd11c;
+    text-shadow: 3px 3px #797e81;
+    
+}
+
+.Message { /* message qui se situe au milieu de l'écran*/
+    color: #ffffff;
+    font-size: 25px; 
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -10vh;
+}
+
+.imageBas{
+    position: absolute;
+    bottom: 80px;
+    z-index: -2;
+    opacity: 0.15;
+}
+
+.prenom{
+    color : rgb(65, 255, 65);
+    font: bold 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .imageBas{
+        opacity: 0;
+    }
+}
+
+
