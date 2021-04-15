@@ -82,8 +82,8 @@ if(isset($_POST["submit"])) {
                 <h1 class="Titre">Contact</h1>
                 <p class="sous-titre">Voici les différentes méthodes pour me contacter</p>    
 
-                <p>Email : <a class="a-survol" target="_blank" href="mailto:tudela.yannis.sti@gmail.com">
-                    tudela.yannis.sti@gmail.com </a> 
+                <p>Email : <a class="a-survol" target="_blank" href="mailto:tudela.yannis@gmail.com">
+                    tudela.yannis@gmail.com </a> 
                 </p>  
 
                 <p>Linkedin : <a class="a-survol" target="_blank" href="https://www.linkedin.com/in/yannis-tudela-41b8351b7/">
