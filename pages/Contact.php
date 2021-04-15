@@ -60,7 +60,7 @@ if(isset($_POST["submit"])) {
     <body >
         <header>
 
-            <a href="./index.html" class="lien" id="Nom">TUDELA Yannis</a>              
+            <a href="../index.html" class="lien" id="Nom">TUDELA Yannis</a>              
 
             <nav>
                 <a href="./Apropos.html" class="lien" id="Apropos">A propos</a>
