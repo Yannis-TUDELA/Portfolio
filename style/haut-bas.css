@@ -42,6 +42,8 @@ header .burger > div{
     background-color: #ffffff;
 }
 
+
+
 nav{  /* Bouton de navigation */ 
     font-family: 'Comfortaa', cursive;
     text-align: right;
@@ -125,6 +127,71 @@ footer p{
     text-decoration: none;
 }
 
+/*Loading*/
+.box{
+    width:200%;
+    height:100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background: #2d2f33c4;
+    z-index: 99999;
+}
+
+.box .b {
+    border-radius: 50%;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-bottom: 4px solid transparent !important;
+    border-top: 4px solid transparent !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ro 2s infinite;
+}
+
+.box .b1 {
+    border-color: #d9d005;
+    width: 120px;
+    height: 120px;
+}
+
+.box .b2 {
+    border-color: #91ce07;
+    width: 100px;
+    height: 100px;
+    animation-delay: 0.2s;
+}
+
+.box .b3 {
+    border-color: #04bd3d;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0.3s;
+}
+
+.box .b4 {
+    border-color: #06a56b;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0.4s;
+}
+
+@keyframes ro {
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50%{
+        transform: translate(-50%, -50%) rotate(-180deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
 @keyframes slidein{
     from{
         transform: translateX(100vw);
@@ -134,6 +201,7 @@ footer p{
         transform: translateX(0);
     }
 }
+
 
 /* Responsive*/
 @media screen and (max-width:768px) {

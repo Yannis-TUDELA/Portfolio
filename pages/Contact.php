@@ -57,7 +57,15 @@ if(isset($_POST["submit"])) {
     </head>
 
     
-    <body >
+     <body onload="myFunction()">
+
+        <div class="box">
+            <div class="b b1"></div>
+            <div class="b b2"></div>
+            <div class="b b3"></div>
+            <div class="b b4"></div>
+        </div>
+
         <header>
 
             <a href="../index.html" class="lien" id="Nom">TUDELA Yannis</a>              
@@ -123,5 +131,6 @@ if(isset($_POST["submit"])) {
             </p>    
         </footer>
         <script src="../JS/index.js"></script>
+        <script src="../JS/loader.js"></script>
     </body>
 </html>
