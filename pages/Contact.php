@@ -74,7 +74,7 @@ if(isset($_POST["submit"])) {
                 <a href="./Apropos.html" class="lien" id="Apropos">A propos</a>
                 <a href="./Projet.html" class="lien" id="Projet">Projets</a>
                 <a href="./Competence.html" class="lien" id="Competence">Compétences</a>            
-                <a href="./Contact.html" class="lien" id="Contact">Contact</a>
+                <a href="./Contact.php" class="lien" id="Contact">Contact</a>
             </nav> 
 
             <div class="burger">
